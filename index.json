@@ -3,7 +3,7 @@
     "packages": [
         {
             "name": "LiteLoader",
-            "sha256": "21ed39d05d19449287bb3dbc19fd395d4fa12aefb3f0fe1846e008f28e6e4d95",
+            "sha256": "08d3f0e3e447d16d0ab25fcd483674de41a74b117d49d27e5f14fdeea25c8811",
             "uid": "com.mumfrey.liteloader"
         },
         {
@@ -13,12 +13,12 @@
         },
         {
             "name": "Intermediary Mappings",
-            "sha256": "a92293989fcae0bd58c6ec8b83b137dd19cbb60adf038c5cfdd57c648c4ed745",
+            "sha256": "dc98e35e20e46bf501913c109955db57b571ff6207bd38c1c6df58ae1e0a2a5f",
             "uid": "net.fabricmc.intermediary"
         },
         {
             "name": "Minecraft",
-            "sha256": "4a4fdd0dcc2e2b57638c426066db7bf458a554a0d821eba0de49810885a2a87b",
+            "sha256": "069503b06162fef16dbe3d0f0942b2b8fe3bdc94dbbb7f0dfe14012d9628e90e",
             "uid": "net.minecraft"
         },
         {
@@ -28,12 +28,12 @@
         },
         {
             "name": "LWJGL 2",
-            "sha256": "d7246639e6207282d6b3731d1395e0e076c09ddac0a020ea4e5278be74c1d2fc",
+            "sha256": "1b7e965e286d0499b19fa7dfae6c5f7683bb621ce24c93990f4d9c680d0c5838",
             "uid": "org.lwjgl"
         },
         {
             "name": "LWJGL 3",
-            "sha256": "1e57e09cf493a60d7b3aceb41c6ba17cbe5f3cfb88bcc9bd7d0a6a9a62d3e22b",
+            "sha256": "f91c58ea52a64a1a936f7d48652df45f6e397f99daa98b222e87212c17f6bd58",
             "uid": "org.lwjgl3"
         },
         {
