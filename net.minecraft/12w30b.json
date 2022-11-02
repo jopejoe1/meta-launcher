@@ -1,0 +1,69 @@
+{
+    "assetIndex": {
+        "id": "pre-1.6",
+        "sha1": "4759bad2824e419da9db32861fcdc3a274336532",
+        "size": 73813,
+        "totalSize": 49381897,
+        "url": "https://piston-meta.mojang.com/v1/packages/4759bad2824e419da9db32861fcdc3a274336532/pre-1.6.json"
+    },
+    "compatibleJavaMajors": [
+        8
+    ],
+    "formatVersion": 1,
+    "libraries": [
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "5150b9c2951f0fde987ce9c33496e26add1de224",
+                    "size": 27787,
+                    "url": "https://libraries.minecraft.net/net/minecraft/launchwrapper/1.5/launchwrapper-1.5.jar"
+                }
+            },
+            "name": "net.minecraft:launchwrapper:1.5"
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "6065cc95c661255349c1d0756657be17c29a4fd3",
+                    "size": 61311,
+                    "url": "https://libraries.minecraft.net/net/sf/jopt-simple/jopt-simple/4.5/jopt-simple-4.5.jar"
+                }
+            },
+            "name": "net.sf.jopt-simple:jopt-simple:4.5"
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "054986e962b88d8660ae4566475658469595ef58",
+                    "size": 214592,
+                    "url": "https://libraries.minecraft.net/org/ow2/asm/asm-all/4.1/asm-all-4.1.jar"
+                }
+            },
+            "name": "org.ow2.asm:asm-all:4.1"
+        }
+    ],
+    "mainClass": "net.minecraft.launchwrapper.Launch",
+    "mainJar": {
+        "downloads": {
+            "artifact": {
+                "sha1": "9d1e450cdb300ec426b50762e031796a8349aa1c",
+                "size": 4584593,
+                "url": "https://archive.org/download/assets.minecraft.net-2013-11-13/assets.minecraft.net/12w30b/minecraft.jar"
+            }
+        },
+        "name": "com.mojang:minecraft:12w30b:client"
+    },
+    "minecraftArguments": "${auth_player_name} ${auth_session} --gameDir ${game_directory} --assetsDir ${game_assets}",
+    "name": "Minecraft",
+    "order": -2,
+    "releaseTime": "2012-07-23T00:00:00+02:00",
+    "requires": [
+        {
+            "suggests": "2.9.4-nightly-20150209",
+            "uid": "org.lwjgl"
+        }
+    ],
+    "type": "snapshot",
+    "uid": "net.minecraft",
+    "version": "12w30b"
+}
