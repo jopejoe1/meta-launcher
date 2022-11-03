@@ -33,7 +33,7 @@
             "uid": "org.lwjgl"
         }
     ],
-    "type": "old_beta",
+    "type": "old_snapshot",
     "uid": "net.minecraft",
     "version": "b1.8-pre2"
 }
