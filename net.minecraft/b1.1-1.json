@@ -1,0 +1,69 @@
+{
+    "assetIndex": {
+        "id": "legacy",
+        "sha1": "c0fd82e8ce9fbc93119e40d96d5a4e62cfa3f729",
+        "size": 134284,
+        "totalSize": 111220701,
+        "url": "https://piston-meta.mojang.com/mc/assets/legacy/c0fd82e8ce9fbc93119e40d96d5a4e62cfa3f729/legacy.json"
+    },
+    "compatibleJavaMajors": [
+        8
+    ],
+    "formatVersion": 1,
+    "libraries": [
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "5150b9c2951f0fde987ce9c33496e26add1de224",
+                    "size": 27787,
+                    "url": "https://libraries.minecraft.net/net/minecraft/launchwrapper/1.5/launchwrapper-1.5.jar"
+                }
+            },
+            "name": "net.minecraft:launchwrapper:1.5"
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "6065cc95c661255349c1d0756657be17c29a4fd3",
+                    "size": 61311,
+                    "url": "https://libraries.minecraft.net/net/sf/jopt-simple/jopt-simple/4.5/jopt-simple-4.5.jar"
+                }
+            },
+            "name": "net.sf.jopt-simple:jopt-simple:4.5"
+        },
+        {
+            "downloads": {
+                "artifact": {
+                    "sha1": "054986e962b88d8660ae4566475658469595ef58",
+                    "size": 214592,
+                    "url": "https://libraries.minecraft.net/org/ow2/asm/asm-all/4.1/asm-all-4.1.jar"
+                }
+            },
+            "name": "org.ow2.asm:asm-all:4.1"
+        }
+    ],
+    "mainClass": "net.minecraft.launchwrapper.Launch",
+    "mainJar": {
+        "downloads": {
+            "artifact": {
+                "sha1": "366af727742cff91e37af5cb3155927dfe44fc66",
+                "size": 1129358,
+                "url": "https://archive.org/download/Minecraft-JE-Beta/b1.1-1/b1.1-1.jar"
+            }
+        },
+        "name": "com.mojang:minecraft:b1.1-1:client"
+    },
+    "minecraftArguments": "${auth_player_name} ${auth_session} --gameDir ${game_directory} --assetsDir ${game_assets}",
+    "name": "Minecraft",
+    "order": -2,
+    "releaseTime": "2010-12-21T22:00:00+00:00",
+    "requires": [
+        {
+            "suggests": "2.9.4-nightly-20150209",
+            "uid": "org.lwjgl"
+        }
+    ],
+    "type": "old_snapshot",
+    "uid": "net.minecraft",
+    "version": "b1.1-1"
+}
